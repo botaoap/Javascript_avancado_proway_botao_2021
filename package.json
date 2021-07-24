@@ -1,0 +1,22 @@
+{
+  "name": "javascript_avancado_proway_botao_2021",
+  "version": "1.0.0",
+  "description": "Projeto Aula1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botaoap/Javascript_avancado_proway_botao_2021.git"
+  },
+  "author": "Gabriel Botao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/botaoap/Javascript_avancado_proway_botao_2021/issues"
+  },
+  "homepage": "https://github.com/botaoap/Javascript_avancado_proway_botao_2021#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
