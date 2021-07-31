@@ -48,3 +48,19 @@ app.get('/form2/:nome?', function(request, response) {
         response.render("../views/formulario.ejs")
     }
 });
+
+app.get('/formAction', function(request, response) {
+    let formNome = request.query['formNome'];
+    let formEmail = request.query['formEmail'];
+    let formTelefone = request.query['formTelefone'];
+    let formIdade = request.query['formIdade'];
+    let texto = '<h1> Iformações do usuário</h1>';
+
+    if (formNome && formEmail && formTelefone && formIdade) {
+        texto += '<p><strong> Nome: </strong>'+ formNome + '</p> <p><strong> Email: </strong>'+ formEmail + '</p> <p><strong> Telefone: </strong>'+ formTelefone + '</p> <p><strong> Idade: </strong>'+ formIdade + '</p>'
+    } else {
+        texto += '<p> Preencha todos os campos </p>'
+    }
+
+    response.send(texto)
+});
