@@ -9,6 +9,7 @@
   "author": "Gabriel Botao",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.0.2"
+    "bootstrap": "^5.0.2",
+    "express": "^4.17.1"
   }
 }
