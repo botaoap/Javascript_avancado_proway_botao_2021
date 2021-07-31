@@ -8,6 +8,18 @@
 <!-- instalando dependencias do node dentro do projeto -->
 <!-- estar dentro da pasta do projeto -->
 - npm install
+<!-- Lista todos os pacotes instalados -->
+- npm list
+<!-- Pedir ajuda -->
+- npm help
+<!-- igual o init, mas o -y evita fazer as perguntas do processo -->
+- npm init -y
+<!-- verifica dependenia desatualizadas -->
+- npm outdated
+<!-- Instalando Express normal para fazer o uso das funcionalidades -->
+- npm install express
+<!-- Instalando extencao .ejs -->
+- npm install i ejs
 
 ## ES6+
 <!-- Resumindo é uma versao nova do JavaScript -->
