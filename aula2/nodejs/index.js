@@ -16,7 +16,7 @@ app.listen(3000, function() {
 // TODO: criando primeira pagina
 app.get('/', function(request, response) {
     let texto = '<h1> Titulo da pagina </h1> <p>'+ msg +'</p>' 
-    texto += '<p><a id="botao" href="http://localhost:3000/index"> Próxima Pagina </a></p>'
+    texto += '<p><a id="botao" href="/index"> Próxima Pagina </a></p>'
     // TODO: resposta para o servidor
     response.send(texto)
 });
@@ -24,6 +24,6 @@ app.get('/', function(request, response) {
 // TODO: Criando uma segunda pagina
 app.get('/index', function(request, response) {
     let texto = '<h1> Pagina Index </h1> <p> Criando outra pagina </p>' 
-    texto += '<p><a href="http://localhost:3000"> Voltar </a></p>'
+    texto += '<p><a href="/"> Voltar </a></p>'
     response.send(texto)
 });
