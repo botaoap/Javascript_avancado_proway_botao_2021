@@ -29,6 +29,8 @@
 - npx express-generator <NomeArquivo> --view=pug
 <!-- Para iniciar o prejeto -->
 - npm start
+<!-- Instalar pacote Pug -->
+- npm install pug
 
 
 
