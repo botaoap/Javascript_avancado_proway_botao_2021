@@ -27,6 +27,8 @@
 <!-- Comando para criar um projeto com express-generator -->
 <!-- View Pug é a linguagem q sera usada -->
 - npx express-generator <NomeArquivo> --view=pug
+<!-- Para iniciar o prejeto -->
+- npm start
 
 
 
