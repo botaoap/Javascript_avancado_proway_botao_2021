@@ -22,6 +22,14 @@
 - npm install i ejs
 <!-- Instalar Express Generator -->
 - npm install --save express-generator
+<!-- Comando mkdir cria uma pasta -->
+- mkdir
+<!-- Comando para criar um projeto com express-generator -->
+<!-- View Pug é a linguagem q sera usada -->
+- npx express-generator <NomeArquivo> --view=pug
+
+
+
 ## ES6+
 <!-- Resumindo é uma versao nova do JavaScript -->
 <!-- Diferencas de variáveis -->
