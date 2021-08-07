@@ -54,7 +54,7 @@ app.get('/formAction', function(request, response) {
     let formEmail = request.query['formEmail'];
     let formTelefone = request.query['formTelefone'];
     let formIdade = request.query['formIdade'];
-    let texto = '<h1> Iformações do usuário</h1>';
+    let texto = '<h1> Iformações do usuário</h1> <p><a href="/formulario"> Voltar </a></p>';
 
     if (formNome && formEmail && formTelefone && formIdade) {
         texto += '<p><strong> Nome: </strong>'+ formNome + '</p> <p><strong> Email: </strong>'+ formEmail + '</p> <p><strong> Telefone: </strong>'+ formTelefone + '</p> <p><strong> Idade: </strong>'+ formIdade + '</p>'

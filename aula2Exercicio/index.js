@@ -1,11 +1,11 @@
 var http = require('http')
 var server = http.createServer(function(request, response) {
     if (request.url == "/") {
-        response.render("/view/home");
+        response.render("/view/home.ejs");
     }else if (request.url == "/pagina2") {
-        response.write("/view/pagina2");
+        response.render("/view/pagina2.ejs");
     }else if (request.url == "/formulario") {
-        response.write("/view/formulario");
+        response.render("/view/formulario.ejs");
     } else {
         response.writeHead(404, {'Content-Type': 'text/html; chatset=utf-8'})
         response.write("<h1>Pagina nao encontrada</h1>")
