@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('aula3exercicio:server');
 var http = require('http');
+var open = require('open')
 
 /**
  * Get port from environment and store in Express.
@@ -14,6 +15,8 @@ var http = require('http');
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
+// open('http://localhost:' + port)
+console.log('Executando porjeto na porta: ' + port)
 
 /**
  * Create HTTP server.
