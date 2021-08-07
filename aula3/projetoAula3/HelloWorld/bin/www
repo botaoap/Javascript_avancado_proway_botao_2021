@@ -8,12 +8,18 @@ var app = require('../app');
 var debug = require('debug')('helloworld:server');
 var http = require('http');
 
+// TODO: Abrir navegador
+const open = require('open')
+
 /**
  * Get port from environment and store in Express.
  */
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
+
+// Abrir navagador automatico apos iniciar o servidor
+open('http://localhost:' + port);
 
 /**
  * Create HTTP server.
