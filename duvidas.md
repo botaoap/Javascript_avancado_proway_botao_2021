@@ -20,7 +20,8 @@
 - npm install express
 <!-- Instalando extencao .ejs -->
 - npm install i ejs
-
+<!-- Instalar Express Generator -->
+- npm install --save express-generator
 ## ES6+
 <!-- Resumindo é uma versao nova do JavaScript -->
 <!-- Diferencas de variáveis -->
