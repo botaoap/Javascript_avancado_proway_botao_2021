@@ -1,0 +1,29 @@
+extends layout
+
+block content
+    h1= title
+    form.formulario
+        div.form-row
+            div.col-md-4.mb-3
+                input#validationDefault01.form-control(type='text' name="formFirstName" placeholder='First name' required='')
+            div.col-md-4.mb-3
+                input#validationDefault02.form-control(type='text' name="formLastName" placeholder='Last name' required='')
+            div.col-md-4.mb-3
+                div.input-group
+                    div.input-group-prepend
+                    span#inputGroupPrepend2.input-group-text @
+                    input#validationDefaultUsername.form-control(type='text' name="formUsername" placeholder='Username' aria-describedby='inputGroupPrepend2' required='')
+        div.form-row
+            div.col-md-6.mb-3
+                input#validationDefault03.form-control(type='text' name="formCity" placeholder='City' required='')
+            div.col-md-3.mb-3
+                input#validationDefault04.form-control(type='text' name="formState" placeholder='State' required='')
+            div.col-md-3.mb-3
+                input#validationDefault05.form-control(type='text' name="formZipcode" placeholder='Zip' required='')
+        div.form-group
+            div.form-check
+                input#invalidCheck2.form-check-input(type='checkbox' value='' required='')
+                label.form-check-label(for='invalidCheck2') Agree to terms and conditions
+        button.btn.btn-primary(type='submit') Submit form
+    div.formulario    
+        a(href="/") Voltar
