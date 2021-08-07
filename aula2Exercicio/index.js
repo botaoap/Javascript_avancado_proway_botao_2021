@@ -26,6 +26,9 @@ var express = require("express");
 var path = require("path");
 var app = express();
 
+// TODO: Abrir o naveagor apos iniciar o servidor
+const open = require('open')
+
 // TODO: inicia a nevagacao entre as pages
 app.set("view engine", "ejs")
 
@@ -50,6 +53,10 @@ app.get('/', function(request, response) {
         response.write("Error ao carregar a pagina")
     }
 });
+
 app.listen(3000, function() {
     console.log("Conectado em http://localhost:3000");
 });
+
+// TODO: Abrir o naveagor apos iniciar o servidor
+open('http://localhost:3000')
