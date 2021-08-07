@@ -31,7 +31,10 @@
 - npm start
 <!-- Instalar pacote Pug -->
 - npm install pug
-
+<!-- Recarregar servivor automatico -->
+-
+<!-- Abrir o navegor automaticamente quando inicar o servidor -->
+- npm install open ou npm install open
 
 
 ## ES6+
