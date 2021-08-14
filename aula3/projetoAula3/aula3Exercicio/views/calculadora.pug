@@ -9,14 +9,16 @@ block content
                 input.form-control(type="number" id="number1" placeholder="Digite um numero")
             div.col-md-4.mb-3
                 input.form-control(type="number" id="number2" placeholder="Digite outro numero")
-        div.col-md-4.mb-3
-            label.form-control Valor: 
-            label.div.col-md-4.mb-3(for="result" id="resultado")
         div.form-row
-            button(id="soma" onclick="calcSoma()") Soma
-            button(id="subtracao" onclick="calcSubtrai()") Subtrai
-            button(id="multiplica" onclick="calcMultiplica()") Multiplica
-            button(id="divisao" onclick="calcDivide()") Divide
-
-
-    a(href="/") Voltar
+            div.col-md-4.mb-3
+                label.form-control Valor: 
+                label.div.col-md-4.mb-3(for="result" id="resultado")
+        div.form-row
+            button.btn.btn-primary(id="soma" onclick="calcSoma()") Soma
+            button.btn.btn-primary(id="subtracao" onclick="calcSubtrai()") Subtrai
+            button.btn.btn-primary(id="multiplica" onclick="calcMultiplica()") Multiplica
+            button.btn.btn-primary(id="divisao" onclick="calcDivide()") Divide
+        
+    div.formulario
+        div.form-row
+            a.btn.btn-primary(href="/") Voltar
