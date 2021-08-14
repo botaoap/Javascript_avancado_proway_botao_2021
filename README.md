@@ -13,7 +13,8 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Verificar se NodeJS está instalado: node --version
 * Instalar se não tiver instaldo: [NodeJS](https://nodejs.org/en/download/)
-* 
+
 
 ## Dúvidas JavaScript
 - Anotações interessantes: [DUVIDAS](duvidas.md)
+- Informacoes gerais e API's: [TEORIA](./aula4/teorias.md)
